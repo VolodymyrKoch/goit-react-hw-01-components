@@ -1,0 +1,35 @@
+.statistics {
+  width: 50%;
+  background-color: rgb(192, 236, 233);
+  margin: 20px auto;
+  padding: 15px;
+}
+.statistics h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: rgb(150, 150, 150);
+}
+
+.statList {
+  margin-left: 10px;
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.item {
+  background-color: rgb(196, 238, 161);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px grey;
+  width: 90px;
+  height: 45px;
+  padding: 0px;
+}
+
+.item span {
+  padding: 2px;
+}

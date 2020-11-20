@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const StatsItem = ({ el: [key, value] }) => {
   return (
@@ -8,4 +9,13 @@ const StatsItem = ({ el: [key, value] }) => {
     </li>
   );
 };
+
 export default StatsItem;
+
+// StatsItem.propTypes = {
+//   el: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+// };
+
+StatsItem.propTypes = {
+  el: PropTypes.array,
+};

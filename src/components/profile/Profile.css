@@ -30,7 +30,9 @@ body {
   margin: 0px;
   font-family: roboto, sans-serif;
 }
-
+.description {
+  padding-top: 7px;
+}
 img {
   border-radius: 20%;
   display: block;
