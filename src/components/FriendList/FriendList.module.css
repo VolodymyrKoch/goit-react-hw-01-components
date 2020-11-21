@@ -1,0 +1,50 @@
+@value my-box-shadow from '../../vars.module.css';
+@value my-border from '../../vars.module.css';
+
+.friendList {
+  width: 350px;
+  background-color: rgb(226, 198, 198);
+  display: block;
+  margin: 40px auto;
+  padding-top: 20px;
+  padding-bottom: 1px;
+}
+.item {
+  background-color: rgb(196, 238, 161);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px grey;
+  height: 45px;
+  padding: 40px;
+  margin-bottom: 20px;
+  border-radius: 45%;
+}
+
+/* базовий стиль */
+.status {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+/* композиція */
+.statusOff {
+  composes: status;
+  background-color: red;
+}
+.statusOn {
+  composes: status;
+  background-color: green;
+}
+
+.avatar {
+  width: 70px;
+  margin-right: 50px;
+  margin-left: 50px;
+  object-fit: cover;
+  height: 70px;
+  box-shadow: my-box-shadow;
+  border: my-border;
+ }
