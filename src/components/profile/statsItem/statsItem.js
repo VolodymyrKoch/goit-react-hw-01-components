@@ -12,10 +12,6 @@ const StatsItem = ({ el: [key, value] }) => {
 
 export default StatsItem;
 
-// StatsItem.propTypes = {
-//   el: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-// };
-
 StatsItem.propTypes = {
   el: PropTypes.array,
 };

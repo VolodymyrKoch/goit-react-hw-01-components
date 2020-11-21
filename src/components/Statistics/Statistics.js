@@ -29,7 +29,6 @@ export default Statistics;
 Statistics.defaultProps = {
   title: 'Upload stats',
 };
-// { "id": "id-3", "label": ".mp3", "percentage": 17 },
 Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(

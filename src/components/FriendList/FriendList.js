@@ -21,7 +21,7 @@ const FriendList = ({ friends }) => {
 };
 export default FriendList;
 
-FriendList.propTypes = {
+FriendList.ropTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.shape({
       avatar: PropTypes.string,
