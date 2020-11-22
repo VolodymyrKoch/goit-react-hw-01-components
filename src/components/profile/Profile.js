@@ -1,7 +1,7 @@
 import React from 'react';
 
 import classes from './Profile.module.css';
-import StatsItem from './statsItem/statsItem.js';
+import StatsItem from './StatsItem/StatsItem.js';
 import PropTypes from 'prop-types';
 
 const Profile = ({ user }) => {
